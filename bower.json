@@ -1,0 +1,22 @@
+{
+  "name": "k2badge",
+  "homepage": "https://github.com/Vultren/k2badge",
+  "authors": [
+    "Vultren <vewalden@gmail.com>"
+  ],
+  "description": "KanColle Badge Generator",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "tooltipster": "^4.2.5"
+  }
+}

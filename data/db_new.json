@@ -1,0 +1,2613 @@
+{
+    "DE": {
+        "shimushu": {
+            "className": "Shimushu",
+            "ships": [
+                {
+                    "name": "Shimushu",
+                    "base": {
+                        "offset": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Kunashiri",
+                    "base": {
+                        "offset": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                }
+            ]
+        },
+        "etorofu": {
+            "className": "Etorofu",
+            "ships": [
+                {
+                    "name": "Etorofu",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "rarity": 4
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "rarity": 4
+                    },
+                    "yutaka": {
+                        "offset": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Matsuwa",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "rarity": 4
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "rarity": 4
+                    }
+                }
+            ]
+        }
+    },
+    "DD": {
+        "shimakaze": {
+            "className": "Shimakaze",
+            "ships": [
+                {
+                    "name": "Shimakaze",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": -50
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    }
+                }
+            ]
+        },
+        "fubuki": {
+            "className": "Fubuki",
+            "ships": [
+                {
+                    "name": "Fubuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 3
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    },
+                    "autumnFest": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 3
+                    },
+                    "autumnFestKaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Shirayuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "rarity": 2
+                    }
+                },
+                {
+                    "name": "Hatsyuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Miyuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "rarity": 2
+                    }
+                },
+                {
+                    "name": "Murakumo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 125,
+                            "y": -25
+                        },
+                        "rarity": 6
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Isonami",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    },
+                    "bigSight": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Uranami",
+                    "base": {
+                        "offset": {
+                            "x": -40,
+                            "y": -10
+                        },
+                        "rarity": 4
+                    },
+                    "setsubun": {
+                        "offset": {
+                            "x": -40,
+                            "y": -10
+                        },
+                        "rarity": 4
+                    }
+                }
+            ]
+        },
+        "ayanami": {
+            "className": "Ayanami",
+            "ships": [
+                {
+                    "name": "Ayanami",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 3
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 50,
+                            "y": -25
+                        },
+                        "rarity": 6
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 50,
+                            "y": -25
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Shikinami",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "rarity": 2
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "rarity": 2
+                    }
+                },
+                {
+                    "name": "Amagiri",
+                    "base": {
+                        "offset": {
+                            "x": -67,
+                            "y": -9
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -60
+                        },
+                        "rarity": 6
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": -67,
+                            "y": -9
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -60
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Sagiri",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 3
+                    }
+                },
+                {
+                    "name": "Oboro",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": -20
+                        },
+                        "rarity": 1
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": -40
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 0,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -10
+                        },
+                        "rarity": 4
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": -10,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": -10,
+                            "y": -45
+                        },
+                        "rarity": 4
+                    },
+                    "summer2016": {
+                        "offset": {
+                            "x": 0,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -10
+                        },
+                        "rarity": 4
+                    },
+                    "summer2016Kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "offset2": {
+                            "x": 5,
+                            "y": -84
+                        },
+                        "rarity": 4
+                    },
+                    "valentines": {
+                        "offset": {
+                            "x": -60,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": -60,
+                            "y": 30
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Akebono",
+                    "base": {
+                        "offset": {
+                            "x": 20,
+                            "y": -75
+                        },
+                        "rarity": 1
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 39,
+                            "y": 40
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "yearEnd2014": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 40,
+                            "y": 40
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "mackerel": {
+                        "offset": {
+                            "x": -25,
+                            "y": -225
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -300
+                        },
+                        "rarity": 4
+                    },
+                    "rainy": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "summer2016": {
+                        "offset": {
+                            "x": 39,
+                            "y": 40
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "yearEnd": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -90
+                        },
+                        "rarity": 4
+                    },
+                    "valentines": {
+                        "offset": {
+                            "x": 39,
+                            "y": 40
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "oyakodon": {
+                        "offset": {
+                            "x": 39,
+                            "y": 40
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Sazanami",
+                    "base": {
+                        "offset": {
+                            "x": 20,
+                            "y": -25
+                        },
+                        "rarity": 2
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "christmas2014": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "christmas2015": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "christmas": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "offset2": {
+                            "x": 70,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    },
+                    "rainy": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Ushio",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 1
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -75
+                        },
+                        "rarity": 6
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": 100,
+                            "y": -25
+                        },
+                        "rarity": 4
+                    },
+                    "summerKaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -75
+                        },
+                        "rarity": 6
+                    },
+                    "mackerel": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 17,
+                            "y": -131
+                        },
+                        "rarity": 4
+                    },
+                    "mackerelKaini": {
+                        "offset": {
+                            "x": -33,
+                            "y": -9
+                        },
+                        "offset2": {
+                            "x": -10,
+                            "y": -133
+                        },
+                        "rarity": 6
+                    },
+                    "newYear": {
+                        "offset": {
+                            "x": -25,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -60
+                        },
+                        "rarity": 4
+                    },
+                    "newYearKaini": {
+                        "offset": {
+                            "x": -67,
+                            "y": -9
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -60
+                        },
+                        "rarity": 6
+                    },
+                    "hinamatsuri": {
+                        "offset": {
+                            "x": -67,
+                            "y": -9
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -60
+                        },
+                        "rarity": 4
+                    },
+                    "hinamatsuriKaini": {
+                        "offset": {
+                            "x": -67,
+                            "y": -9
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -60
+                        },
+                        "rarity": 6
+                    }
+                }
+            ]
+        },
+        "mutsuki": {
+            "className": "Mutsuki",
+            "ships": [
+                {
+                    "name": "Mutsuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "offset2": {
+                            "x": -75,
+                            "y": -25
+                        },
+                        "rarity": 3
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": -70,
+                            "y": 50
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Kisaragi",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -25
+                        },
+                        "rarity": 6
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": 0,
+                            "y": 50
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Yayoi",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": -50,
+                            "y": -10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Uzuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -15
+                        },
+                        "rarity": 5
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": -50,
+                            "y": -25
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Satsuki",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 15,
+                            "y": -125
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "offset2": {
+                            "x": 100,
+                            "y": -40
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Minazuki",
+                    "base": {
+                        "offset": {
+                            "x": -75,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": -75,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Fumizuki",
+                    "base": {
+                        "offset": {
+                            "x": 20,
+                            "y": -100
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 20,
+                            "y": -100
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Nagatsuki",
+                    "base": {
+                        "offset": {
+                            "x": -50,
+                            "y": -20
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -100
+                        },
+                        "rarity": 2
+                    }
+                },
+                {
+                    "name": "Kikuzuki",
+                    "base": {
+                        "offset": {
+                            "x": 150,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Mikazuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 20,
+                            "y": -50
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Mochizuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1,
+                        "type": "DD",
+                        "unique": true,
+                        "full": "Mochizuki",
+                        "name": "Mutsuki"
+                    }
+                }
+            ]
+        },
+        "akatsuki": {
+            "shipClass": "Akatsuki",
+            "ships": [
+                {
+                    "name": "Akatsuki",
+                    "base": {
+                        "offset": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 3
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Hibiki",
+                    "base": {
+                        "offset": {
+                            "x": -25,
+                            "y": -10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "name": "Верный"
+                    }
+                },
+                {
+                    "name": "Ikazuchi",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -30
+                        },
+                        "rarity": 1
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Inazumi",
+                    "base": {
+                        "offset": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    }
+                }
+            ]
+        },
+        "hatsuharu": {
+            "shipClass": "Hatsuharu",
+            "ships": [
+                {
+                    "name": "Hatsuharu",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": -25
+                        },
+                        "rarity": 3
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 50,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Nenohi",
+                    "base": {
+                        "offset": {
+                            "x": 100,
+                            "y": -125
+                        },
+                        "rarity": 1
+                    },
+                    "newYear": {
+                        "offset": {
+                            "x": -25,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": -39,
+                            "y": 10
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Wakaba",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -75
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Hatsushimo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 1
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 25,
+                            "y": -50
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -100
+                        },
+                        "rarity": 6
+                    }
+                }
+            ]
+        },
+        "shiratsuyu": {
+            "shipClass": "Shiratsuyu",
+            "ships": [
+                {
+                    "name": "Shiratsuyu",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -75
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "rarity": 3
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 50,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    },
+                    "mobile": {
+                        "offset": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Shigure",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    },
+                    "christmasKaini": {
+                        "offset": {
+                            "x": 10,
+                            "y": 15
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -40
+                        },
+                        "rarity": 6
+                    },
+                    "valentineKaini": {
+                        "offset": {
+                            "x": -10,
+                            "y": 20
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 6
+                    },
+                    "summerKaini": {
+                        "offset": {
+                            "x": 275,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 225,
+                            "y": -25
+                        },
+                        "rarity": 6
+                    },
+                    "whiteDayKaini": {
+                        "offset": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 75,
+                            "y": 20
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Murasame",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 2
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -100
+                        },
+                        "rarity": 4
+                    },
+                    "rainy": {
+                        "offset": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 100,
+                            "y": -100
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -100
+                        },
+                        "rarity": 4
+                    },
+                    "mackerel": {
+                        "offset": {
+                            "x": -50,
+                            "y": -40
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -40
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Yuudachi",
+                    "base": {
+                        "offset": {
+                            "x": 25,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 25,
+                            "y": 50
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    },
+                    "newYearKaini": {
+                        "offset": {
+                            "x": 25,
+                            "y": -125
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 6
+                    },
+                    "summerKaini": {
+                        "offset": {
+                            "x": 225,
+                            "y": -25
+                        },
+                        "offset2": {
+                            "x": 200,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    },
+                    "rainyKaini": {
+                        "offset": {
+                            "x": 225,
+                            "y": -25
+                        },
+                        "offset2": {
+                            "x": 200,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    },
+                    "oyakodon": {
+                        "offset": {
+                            "x": 225,
+                            "y": -25
+                        },
+                        "offset2": {
+                            "x": 200,
+                            "y": -50
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Harusame",
+                    "base": {
+                        "offset": {
+                            "x": 10,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -20,
+                            "y": -75
+                        },
+                        "rarity": 4
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -100
+                        },
+                        "rarity": 5
+                    },
+                    "autumn": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -100
+                        },
+                        "rarity": 5
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": -25,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -50
+                        },
+                        "rarity": 5
+                    },
+                    "spring": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -98
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Samidare",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "rarity": 2
+                    }
+                },
+                {
+                    "name": "Umikaze",
+                    "base": {
+                        "offset": {
+                            "x": 70,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 70,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Yamakaze",
+                    "base": {
+                        "offset": {
+                            "x": -40,
+                            "y": 5
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -10
+                        },
+                        "rarity": 4
+                    },
+                    "newYear": {
+                        "offset": {
+                            "x": -40,
+                            "y": 5
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -70
+                        },
+                        "rarity": 4
+                    },
+                    "hinamatsuri": {
+                        "offset": {
+                            "x": -40,
+                            "y": 5
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -70
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Kawakaze",
+                    "base": {
+                        "offset": {
+                            "x": 70,
+                            "y": 40
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -80
+                        },
+                        "rarity": 4
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 125,
+                            "y": -50
+                        },
+                        "offset2": {
+                            "x": 25,
+                            "y": -30
+                        },
+                        "rarity": 6
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 70,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": -90
+                        },
+                        "rarity": 4
+                    },
+                    "christmas": {
+                        "offset": {
+                            "x": 25,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -10,
+                            "y": -90
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Suzukaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "rarity": 3
+                    }
+                }
+            ]
+        },
+        "asashio": {
+            "shipClass": "Asashio",
+            "ships": [
+                {
+                    "name": "Asashio",
+                    "base": {
+                        "offset": {
+                            "x": -50,
+                            "y": -40
+                        },
+                        "rarity": 3
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": -50,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    },
+                    "kainiD": {
+                        "offset": {
+                            "x": -50,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": 0
+                        },
+                        "rarity": 7
+                    }
+                },
+                {
+                    "name": "Ooshio",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Michishio",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Arashio",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "rarity": 1
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Yamagumo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "christmas": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Asagumo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "christmas": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Arare",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Kasumi",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": -45
+                        },
+                        "rarity": 2
+                    },
+                    "kaini": {
+                        "offset": {
+                            "x": -40,
+                            "y": 10
+                        },
+                        "rarity": 5
+                    },
+                    "kainiB": {
+                        "offset": {
+                            "x": -40,
+                            "y": 10
+                        },
+                        "rarity": 6
+                    }
+                }
+            ]
+        },
+        "kagerou1": {
+            "shipClass": "Kagerou",
+            "ships": [
+                {
+                    "name": "Kagerou",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 3
+                    }
+                },
+                {
+                    "name": "Shiranui",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 2
+                    }
+                },
+                {
+                    "name": "Kuroshio",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 1
+                    }
+                },
+                {
+                    "name": "Oyashio",
+                    "base": {
+                        "offset": {
+                            "x": -65,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": -65,
+                            "y": 25
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Hatsukaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "christmas": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Yukikaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -30
+                        },
+                        "offset2": {
+                            "x": 30,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Amatsukaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "rarity": 6
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 8
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -11
+                        },
+                        "rarity": 7
+                    }
+                },
+                {
+                    "name": "Tokitsukaze",
+                    "base": {
+                        "offset": {
+                            "x": -10,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Urakaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -40
+                        },
+                        "rarity": 4
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": -25,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Isokaze",
+                    "base": {
+                        "offset": {
+                            "x": 25,
+                            "y": 12
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 20,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    },
+                    "mackerel": {
+                        "offset": {
+                            "x": -25,
+                            "y": -75
+                        },
+                        "offset2": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "mackerelKai": {
+                        "offset": {
+                            "x": -20,
+                            "y": -75
+                        },
+                        "offset2": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Hamakaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 5
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 5,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": -20,
+                            "y": -50
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Tanikaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "christmas": {
+                        "offset": {
+                            "x": 25,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 25,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Nowaki",
+                    "base": {
+                        "offset": {
+                            "x": -20,
+                            "y": 20
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Arashi",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 20
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Hagikaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -15,
+                            "y": 15
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Maikaze",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Akigumo",
+                    "base": {
+                        "offset": {
+                            "x": 20,
+                            "y": -50
+                        },
+                        "rarity": 4
+                    }
+                }
+            ]
+        },
+        "yuugumo": {
+            "shipClass": "Yuugumo",
+            "ships": [
+                {
+                    "name": "Yuugumo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "newYear": {
+                        "offset": {
+                            "x": -50,
+                            "y": -25
+                        },
+                        "rarity": 5
+                    },
+                    "spring": {
+                        "offset": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -15
+                        },
+                        "rarity": 5
+                    },
+                    "happi": {
+                        "offset": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -15
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Makigumo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "newYear": {
+                        "offset": {
+                            "x": -50,
+                            "y": -25
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Kazagumo",
+                    "base": {
+                        "offset": {
+                            "x": -25,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": -25,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "setsubun": {
+                        "offset": {
+                            "x": -25,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Naganami",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "spring": {
+                        "offset": {
+                            "x": 0,
+                            "y": -10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -40
+                        },
+                        "rarity": 5
+                    },
+                    "spring2017": {
+                        "offset": {
+                            "x": 0,
+                            "y": -10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -40
+                        },
+                        "rarity": 5
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": -20,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "rice": {
+                        "offset": {
+                            "x": -20,
+                            "y": 30
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Takanami",
+                    "base": {
+                        "offset": {
+                            "x": 125,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 30,
+                            "y": 5
+                        },
+                        "rarity": 4
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "rarity": 4
+                    },
+                    "rainy": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 100,
+                            "y": 25
+                        },
+                        "rarity": 4
+                    },
+                    "valentine": {
+                        "offset": {
+                            "x": -20,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 80,
+                            "y": 10
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Okinami",
+                    "base":{
+                        "offset": {
+                            "x": -50,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -30
+                        },
+                        "rarity": 4
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": -50,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": -20,
+                            "y": 10
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Fujinami",
+                    "base": {
+                        "offset": {
+                            "x": -50,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -30
+                        },
+                        "rarity": 4
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": -50,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": -30
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Asashimo",
+                    "base": {
+                        "offset": {
+                            "x": 48,
+                            "y": 9
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 4
+                    },
+                    "kai": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 4
+                    },
+                    "happi": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 4
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -25
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Hayashimo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "rainy": {
+                        "offset": {
+                            "x": 0,
+                            "y": -10
+                        },
+                        "offset2": {
+                            "x": 100,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    }
+                },
+                {
+                    "name": "Kiyoshimo",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 4
+                    },
+                    "setsubun": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "rainy": {
+                        "offset": {
+                            "x": 0,
+                            "y": -10
+                        },
+                        "rarity": 5
+                    }
+                }
+            ]
+        },
+        "type1934": {
+            "className": "Type 1934",
+            "ships": [
+                {
+                    "name": "Z1",
+                    "base": {
+                        "offset": {
+                            "x": -25,
+                            "y": 0
+                        },
+                        "rarity": 5
+                    },
+                    "zwei": {
+                        "offset": {
+                            "x": -25,
+                            "y": 0
+                        },
+                        "rarity": 7
+                    },
+                    "oktoberfest": {
+                        "offset": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 75,
+                            "y": 25
+                        },
+                        "rarity": 7
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 0,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 75,
+                            "y": 25
+                        },
+                        "rarity": 7
+                    }
+                },
+                {
+                    "name": "Z3",
+                    "base": {
+                        "offset": {
+                            "x": -25,
+                            "y": 10
+                        },
+                        "rarity": 5
+                    },
+                    "zwei": {
+                        "offset": {
+                            "x": -25,
+                            "y": 10
+                        },
+                        "rarity": 7
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": -25,
+                            "y": 10
+                        },
+                        "rarity": 7
+                    }
+                }
+            ]
+        },
+        "akizuki": {
+            "className": "Akizuki",
+            "ships": [
+                {
+                    "name": "Akizuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    },
+                    "autumnFest": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Teruzuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 50
+                        },
+                        "offset2": {
+                            "x": 20,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                },
+                {
+                    "name": "Hatsuzuki",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 25
+                        },
+                        "offset2": {
+                            "x": 50,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    }
+                }
+            ]
+        },
+        "maestrale": {
+            "className": "Maestrale",
+            "ships": [
+                {
+                    "name": "Libeccio",
+                    "base": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -50,
+                            "y": 0
+                        },
+                        "rarity": 6
+                    },
+                    "autumn": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -30
+                        },
+                        "rarity": 7
+                    },
+                    "summer": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -30
+                        },
+                        "rarity": 7
+                    },
+                    "yukata": {
+                        "offset": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "offset2": {
+                            "x": -25,
+                            "y": -30
+                        },
+                        "rarity": 7
+                    }
+                }
+            ]
+        },
+        "kamikaze": {
+            "className": "Kamikaze",
+            "ships": [
+                {
+                    "name": "Kamikaze",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": -10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Asakaze",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Harukaze",
+                    "base": {
+                        "offset": {
+                            "x": 25,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 25,
+                            "y": -20
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Matsukaze",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 4
+                    }
+                },
+                {
+                    "name": "Hatakaze",
+                    "base": {
+                        "offset": {
+                            "x": 50,
+                            "y": 10
+                        },
+                        "offset2": {
+                            "x": 0,
+                            "y": -20
+                        },
+                        "rarity": 4
+                    }
+                }
+            ]
+        }
+    },
+    "CL": {},
+    "CA": {},
+    "BB": {},
+    "CV": {},
+    "CVL": {},
+    "SS": {},
+    "AX": {}
+}
