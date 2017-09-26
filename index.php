@@ -4,9 +4,11 @@
 		<meta charset="UTF-8">
 		<link href='http://fonts.googleapis.com/css?family=Exo' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="./jquery.min.js"></script>
-		<script type="text/javascript" src="./litetabs.jquery.js"></script>
-		<script type="text/javascript" src="./jquery.tooltipster.min.js"></script>
+		
+		<script type="text/javascript" src="./lib/jquery/dist/jquery.min.js"></script>
+		<link href="./lib/jquery-ui//themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="./lib/jquery-ui/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="./lib/tooltipster/dist/js/tooltipster.bundle.min.js"></script>
 		<script>
 			var importName = <?php echo isset($_POST["ttkName"]) ? "'" . $_POST["ttkName"] . "'" : "undefined" ?>;
 			var importLvl = <?php echo isset($_POST["ttkLvl"]) ? $_POST["ttkLvl"] : "undefined" ?>;
@@ -17,13 +19,18 @@
 			var importFleets = <?php echo isset($_POST["fleet"]) ? "'" . $_POST["fleet"] . "'" : "undefined" ?>;
 			var apiMode = importName || importLvl || importServer || importShips || importFleets;
 		</script>
-		<script type="text/javascript" src="./kaini.min.js?version=13"></script>
+		<script type="text/javascript" src="./lib/kaini/js/Base64.js"></script>
+		
+		
+		<script type="text/javascript" src="./lib/kaini/js/kaini.js"></script>
+		<script type="text/javascript" src="./lib/kaini/js/k2Storage.js"></script>
 		<script type="text/javascript">
 			lang = "en";
 		</script>
 		<script type="text/javascript" src="./ga.js"></script>
-		<link href="./kaini.css" rel="stylesheet" type="text/css"/>
-		<link href="./tooltipster.css" rel="stylesheet" type="text/css"/>
+		<link href="./lib/kaini/css/kaini.css" rel="stylesheet" type="text/css"/>
+		<link href="./lib/tooltipster/dist/css/tooltipster.bundle.css" rel="stylesheet" type="text/css"/>
+		
 	</head>
 	<body>
 		<div id="wrapper">
@@ -48,7 +55,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="tabs" class="rounded">
+			<div id="tabs">
 				<ul>
 					<li><a href="#ttkTab">General</a></li>
 					<li><a href="#flagTab">Fleets</a></li>
@@ -57,7 +64,7 @@
 					<li><a href="#furnTab">Furniture</a></li>
 					<li><a href="#customTab">Custom</a></li>
 				</ul>
-				<div id="ttkInfo" name="#ttkTab">
+				<div id="ttkTab">
 					<div>
 						<label for="name">Admiral Name</label> <input type="text" name="name" id="name" maxlength="26" placeholder="Admiral Name">
 						<label for="level" class="short">Lv.</label> <input type="number" name="level" id="level" min="1" max="120" placeholder="1 - 120">
@@ -156,7 +163,7 @@
 						<div class="divAAX shipClasses"></div>
 					</div>
 				</div>
-				<div name="#shipTab">
+				<div id="shipTab">
 					<div class="shipClass" id="dd">
 						<h3>Destroyers</h3>
 						<div class="shipOptions">
@@ -340,7 +347,7 @@
 						<input type="checkbox" id="selectAll"><label for="selectAll">Select All</label>
 					</div>
 				</div>
-			<div id="colleDiv" name="#colleTab">
+			<div id="colleTab">
 				<div class="shipList">
 					<label>DE 海防</label>
 					<div class="divDE shipClasses"></div>
@@ -362,7 +369,7 @@
 					<div class="divAX shipClasses"></div>
 				</div>
 			</div>
-			<div id="furndiv" name="#furnTab">
+			<div id="furnTab">
 				<div class="furnitureClass invert" id="Floor">
 					<h3>Floors</h3>
 					<div class="shipOptions">
@@ -711,7 +718,7 @@
 				</div>
 				<div style="clear:both;"></div>
 				</div>
-				<div id="customInputs" name="#customTab">
+				<div id="customTab">
 					<div><label for="shipImg">Custom Kanmusu Image</label> <input type='file' id="shipImg" /> <button type="button" id="shipClear">Clear</button></div>
 					<div><label for="customX">Kanmusu X</label> <input type="number" id="customX" min="-800" max="800" value="0"> <label for="customY">Kanmusu Y</label> <input type="number" id="customY" min="-500" max="500" value="0"></div>
 					<div><label for="customZ">Kanmusu Zoom</label> <input type="number" id="customZ" min="-50" max="50" value="0">%</div>
@@ -731,33 +738,34 @@
 		</div>
 		<div id="footer"><p>© 2014-2017 TBES, Sanya.moe, all rights belong to their respective owners. Last updated: Jun 16 2017</p></div>
 		<div style="visibility:hidden; overflow-y: hidden; height:0;" id="icondump">
-			<img src="bg.jpg" id="bg"></img>
-			<img src="furniture/chest/000.png" id="r0"></img>
-			<img src="rarity/rarity1.jpg" id="r1"></img>
-			<img src="rarity/rarity2.jpg" id="r2"></img>
-			<img src="rarity/rarity3.jpg" id="r3"></img>
-			<img src="rarity/rarity4.jpg" id="r4"></img>
-			<img src="rarity/rarity5.jpg" id="r5"></img>
-			<img src="rarity/rarity6.jpg" id="r6"></img>
-			<img src="rarity/rarity7.jpg" id="r7"></img>
-			<img src="rarity/rarity8.jpg" id="r8"></img>
-			<img src="icons/fleet/fleet1.png" id="fleet1"></img>
-			<img src="icons/fleet/fleet2.png" id="fleet2"></img>
-			<img src="icons/fleet/fleet3.png" id="fleet3"></img>
-			<img src="icons/fleet/fleet4.png" id="fleet4"></img>
-			<img src="icons/fleet/fleet1a.png" id="fleet1a"></img>
-			<img src="icons/fleet/fleet2.png" id="fleet2a"></img>
-			<img src="icons/fleet/fleet3.png" id="fleet3a"></img>
-			<img src="icons/fleet/fleet4.png" id="fleet4a"></img>
-			<img src="furniture/wall/001.png" id="activeWall"></img>
-			<img src="furniture/floor/001.png" id="activeFloor"></img>
-			<img src="furniture/chest/000.png" id="activeChest"></img>
-			<img src="furniture/desk/000.png" id="activeDesk"></img>
-			<img src="furniture/object/000.png" id="activeObject"></img>
-			<img src="furniture/window/001.png" id="activeWindow"></img>
-			<img src="furniture/outside/day1.png" id="activeOutside"></img>
+			<img src="assets/bg.jpg" id="bg"></img>
+			<img src="assets/furniture/chest/000.png" id="r0"></img>
+			<img src="assets/rarity/rarity1.jpg" id="r1"></img>
+			<img src="assets/rarity/rarity2.jpg" id="r2"></img>
+			<img src="assets/rarity/rarity3.jpg" id="r3"></img>
+			<img src="assets/rarity/rarity4.jpg" id="r4"></img>
+			<img src="assets/rarity/rarity5.jpg" id="r5"></img>
+			<img src="assets/rarity/rarity6.jpg" id="r6"></img>
+			<img src="assets/rarity/rarity7.jpg" id="r7"></img>
+			<img src="assets/rarity/rarity8.jpg" id="r8"></img>
+			<img src="assets/icons/fleet/fleet1.png" id="fleet1"></img>
+			<img src="assets/icons/fleet/fleet2.png" id="fleet2"></img>
+			<img src="assets/icons/fleet/fleet3.png" id="fleet3"></img>
+			<img src="assets/icons/fleet/fleet4.png" id="fleet4"></img>
+			<img src="assets/icons/fleet/fleet1a.png" id="fleet1a"></img>
+			<img src="assets/icons/fleet/fleet2.png" id="fleet2a"></img>
+			<img src="assets/icons/fleet/fleet3.png" id="fleet3a"></img>
+			<img src="assets/icons/fleet/fleet4.png" id="fleet4a"></img>
+			<img src="assets/furniture/wall/001.png" id="activeWall"></img>
+			<img src="assets/furniture/floor/001.png" id="activeFloor"></img>
+			<img src="assets/furniture/chest/000.png" id="activeChest"></img>
+			<img src="assets/furniture/desk/000.png" id="activeDesk"></img>
+			<img src="assets/furniture/object/000.png" id="activeObject"></img>
+			<img src="assets/furniture/window/001.png" id="activeWindow"></img>
+			<img src="assets/furniture/outside/day1.png" id="activeOutside"></img>
 			<img id="avatar"></img>
 			<img id="customShip"></img>
 		</div>
+		<script type="text/javascript" src="./lib/kaini/js/k2badge.js"></script>
 	</body>
 </html>

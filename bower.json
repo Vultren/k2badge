@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "tooltipster": "^4.2.5"
+    "tooltipster": "^4.2.5",
+    "jquery-ui": "^1.12.1"
   }
 }

@@ -28,9 +28,9 @@ input[type="checkbox"] {width: 18px; height: 18px; margin: 0 5px; vertical-align
 .shipOptions div:first-child {border-top: 1px dotted black;}
 .shipOptions label {display: inline-block; padding: 0.5em 0;}
 
-#ttkInfo {margin-bottom: 0.5em;}
-#ttkInfo > div, #customInputs > div {line-height: 30px;}
-#customInputs label {min-width: 180px;}
+#ttkTab {margin-bottom: 0.5em;}
+#ttkTab > div, #customTab > div {line-height: 30px;}
+#customTab label {min-width: 180px;}
 
 #fleetWrapper {vertical-align: top; position: absolute; display: inline-block; width: 11.5%; width: calc(0% + 175px);}
 
@@ -61,15 +61,34 @@ input[type="checkbox"] {width: 18px; height: 18px; margin: 0 5px; vertical-align
 
 .blueprint {color: #9999FF;}
 
-#tabs {display: none; width: calc(100% - 20px) !important; margin: 0 10px;}
+#tabs {
+	width: calc(100% - 20px); 
+	margin: 0 10px;
+	position: relative; 
+	padding: 0; 
+	overflow: hidden;
+}
 
-#colleDiv .colleAll {width: 100%;}
+
+#tabs ul {margin: 0; padding: 0; font: 12px/14px Verdana, Arial, sans-serif; display:table; width:100%; }
+#tabs li {display: table-cell; list-style-type: none; width: calc(17% - 20px);}
+
+.ui-tabs .ui-tabs-nav li a {
+    display: inline-block;
+    float: none;
+    padding: 5px;
+    text-decoration: none;
+    width: 100%;
+}
+#tabs li:last-child a {margin-right: 0;}
+
+#colleTab .colleAll {width: 100%;}
 
 /****************************************** Core */
-.liteTabs {position: relative; margin: 0; padding: 0; overflow: hidden;}
-.liteTabs ul {margin: 0; padding: 0; font: 12px/14px Verdana, Arial, sans-serif; display:table; width:100%; }
-.liteTabs li {display: table-cell; list-style-type: none}
-.liteTabs li a {display: block; text-decoration: none; outline: 0; padding: 6px 12px; margin-right: 2px; color: #111; 
+/*#tabs {position: relative; margin: 0; padding: 0; overflow: hidden;}
+#tabs ul {margin: 0; padding: 0; font: 12px/14px Verdana, Arial, sans-serif; display:table; width:100%; }
+#tabs li {display: table-cell; list-style-type: none}
+#tabs li a {display: block; text-decoration: none; outline: 0; padding: 6px 12px; margin-right: 2px; color: #111; 
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
 	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
 	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
@@ -79,8 +98,8 @@ input[type="checkbox"] {width: 18px; height: 18px; margin: 0 5px; vertical-align
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
 	background-color:#ededed;
 }
-.liteTabs li:last-child a {margin-right: 0;}
-.liteTabs a:hover {
+#tabs li:last-child a {margin-right: 0;}
+#tabs a:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
 	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
 	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
@@ -90,10 +109,10 @@ input[type="checkbox"] {width: 18px; height: 18px; margin: 0 5px; vertical-align
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
 	background-color:#dfdfdf;
 }
-.liteTabs a:focus {text-decoration: underline}
-.liteTabs a.selected, .liteTabs a.selected:hover {background: white; top: 1px; position: relative; z-index: 100; border: 0px solid #999999; border-width: 1px 1px 0;}
-.liteTabs div {background: white}
-.liteTabs div.selected {position: static !important; padding: 20px; border: 1px solid #999999;}
+#tabs a:focus {text-decoration: underline}
+#tabs a.selected, #tabs a.selected:hover {background: white; top: 1px; position: relative; z-index: 100; border: 0px solid #999999; border-width: 1px 1px 0;}
+#tabs div {background: white}
+#tabs div.selected {position: static !important; padding: 20px; border: 1px solid #999999;}*/
 
 /*************************************** Rounded */
 .rounded > ul > li > a {-moz-border-radius: 8px 8px 0 0; border-radius: 8px 8px 0 0;}
